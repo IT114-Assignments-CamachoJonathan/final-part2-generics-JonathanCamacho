@@ -3,17 +3,18 @@
  */
 package Section1;
 
+import java.util.Collection;
+
 /**
  * @author Jonathan Camacho
  *
  */
 public class MyGenericStaticMethodUtility {
 	
-	public static<T> T add2collection(T_e Collection<T>)
-	
-	add T_e to Collection{
-		
-		return T_e
+	public static<T> T add2collection(T _e, Collection<T> collection)
+	{
+		collection.add(_e);
+		return _e;
 	}
 
 }

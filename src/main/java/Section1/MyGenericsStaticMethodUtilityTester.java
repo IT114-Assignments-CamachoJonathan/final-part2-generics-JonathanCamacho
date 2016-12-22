@@ -14,8 +14,11 @@ public class MyGenericsStaticMethodUtilityTester {
 	 * @return 
 	 */
 	public static<T> void myStaticMethod(T e) {
-		// add2collection method
-		public static T add2collection(T Collection<T>);
-	}
-
+		List<String> strings();
+		
+		public String s1="element_1"
+				
+		public <T> add2collection;
+		
+		System.out.println("newString"+ s1 + "strings.size" + SizeofStrings);
 }
